@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "pjt_pkg_template"
+name = "guide_docker"
 version = "0.1.0"
 description = ""
 authors = ["Miguel Tenório <miguel.h.c.j.s@gmail.com>"]

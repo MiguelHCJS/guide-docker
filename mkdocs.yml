@@ -1,4 +1,4 @@
-site_name: CHANGE-ME
+site_name: Anotações sobre Docker
 
 theme:
     name: material
@@ -9,13 +9,13 @@ theme:
     favicon: assets/logo.png
 
     features:
-    - navigation.instant
-    - navigation.instant.prefetch
-    - navigation.indexes
-    - toc.follow
-    - navigation.top
-    - search.suggest
-    - navigation.footer
+        - navigation.instant
+        - navigation.instant.prefetch
+        - navigation.indexes
+        - toc.follow
+        - navigation.top
+        - search.suggest
+        - navigation.footer
 
     palette:
         - media: "(prefers-color-scheme: light)"
@@ -37,21 +37,21 @@ markdown_extensions:
     - attr_list
 
 watch:
-    - pjt_pkg_template
+    - guide_docker
 
 plugins:
     - search
     - mkdocstrings:
           handlers:
               python:
-                  paths: [pjt_pkg_template, tests]
+                  paths: [guide_docker, tests]
 
 # Se for necessario editar melhor com CSS
 # extra_css:
 #   - stylesheets/extra.css
 
-repo_url: https://github.com/MiguelHCJS/pjt-pkg-template
-repo_name: MiguelHCJS/CHANGE-ME
+repo_url: https://github.com/MiguelHCJS/guide-docker
+repo_name: MiguelHCJS/guide-docker
 edit_uri: tree/main/docs
 
 extra:
