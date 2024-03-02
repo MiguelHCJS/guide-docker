@@ -14,5 +14,3 @@
     ├── poetry.lock
     ├── pyproject.toml
     ├── README.md
-    └── tests
-        └── __init__.py
